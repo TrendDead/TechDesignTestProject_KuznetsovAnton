@@ -3,7 +3,7 @@ using UnityEngine;
 /// <summary>
 /// Срабатывание анимации при клике
 /// </summary>
-[RequireComponent(typeof(CapsuleCollider2D), typeof(Animation))]
+[RequireComponent(typeof(Animation))]
 public class OnClickAnimationStarter : BaseOnClick
 {
     private Animation _animation;
